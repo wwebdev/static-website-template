@@ -1,6 +1,4 @@
-# VAI-Trade ROI Calculator
-
-This app is a static site to be included on other sites as iframe.
+# Static Website template
 
 ## Setup
 
