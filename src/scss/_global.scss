@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #fff;
+    color: $defaultFont;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    transition: 0.1s linear;
+
+    &:hover {
+        color: $lightBlue;
+    }
+}
+
+p {
+    margin: 2rem 0;
+    line-height: 1.4em;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+h1,
+h2 {
+    margin-bottom: 4rem;
+    max-width: 100%;
+    line-height: 1.1em;
+}
