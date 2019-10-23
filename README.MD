@@ -3,7 +3,7 @@
 This is a template for static websites using
 
 - SCSS with linting and autoprefixer
-- uglifying JS
+- minify and compile Javascript with babel
 - minifying images
 - browser-sync
 
