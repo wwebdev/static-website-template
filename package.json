@@ -1,11 +1,11 @@
 {
-  "name": "roi-calculator",
+  "name": "static-website-template",
   "version": "1.0.0",
-  "description": "bandwebsite of tram4",
+  "description": "template for static website",
   "author": "Vincent Will <vincent.will@vaitrade.de>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/todo"
+    "url": "https://github.com/Vincenius/static-website-template"
   },
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
@@ -43,6 +43,5 @@
     "stylelint": "^9.4.0",
     "uglify-es": "^3.3.10"
   },
-  "homepage": "https://todo.com",
   "main": ".eslintrc.js"
 }
