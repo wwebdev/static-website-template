@@ -31,3 +31,10 @@ npm run build
 ```
 npm run watch
 ```
+
+## Demo
+
+Integrates smoothly with netlify:
+
+[https://static-website-template.netlify.com/](https://static-website-template.netlify.com/)
+
