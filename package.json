@@ -13,7 +13,7 @@
     "css:autoprefixer": "postcss -u autoprefixer -r dist/css/*",
     "css:scss": "node-sass --output-style compressed -o dist/css src/scss",
     "css:lint": "stylelint src/scss/*.scss --syntax scss || true",
-    "build:css": "run-s css:*",
+    "build:css": "run-s css:lint css:scss css:autoprefixer",
     "build:js": "mkdirp dist/js -p && npx babel src/js --out-file dist/js/main.min.js --presets minify --source-maps",
     "build:html": "posthtml -c posthtml.json",
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",

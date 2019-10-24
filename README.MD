@@ -1,4 +1,4 @@
-# Static Website template
+# Static Website Template
 
 This is a template for static websites using
 
@@ -9,11 +9,13 @@ This is a template for static websites using
 - html partials and minify with post-html
 
 The compiled files will go to the directory "/dist"
-- from "src/scss" to "dist/css/style.css"
-- from "src/js" to "dist/js/main.min.js"
-- from "src/views" to "dist/"
 
-## Setup
+- from `src/scss` to `dist/css/style.css`
+- from `src/js` to `dist/js/main.min.js`
+- from `src/views` to `dist/`
+- from `src/images` to `dist/images`
+
+## Getting Started
 
 1. Install dependencies
 ```
