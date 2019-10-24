@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "template for static website",
   "author": "Vincent Will <vincent.will@vaitrade.de>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Vincenius/static-website-template"
