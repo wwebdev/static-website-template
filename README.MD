@@ -38,3 +38,12 @@ npm run watch
 Integrates smoothly with netlify:
 
 [https://static-website-template.netlify.com/](https://static-website-template.netlify.com/)
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+---
+
+*created by [Vincent Will](https://vincentwill.com/)*
