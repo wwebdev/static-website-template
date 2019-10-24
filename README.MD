@@ -8,6 +8,8 @@ This is a template for static websites using
 - browser-sync
 - html partials and minify with post-html
 
+The compiled files will be rendered into the directory "/dist"
+
 ## Setup
 
 1. Install dependencies
