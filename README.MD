@@ -17,7 +17,7 @@ The compiled files will be rendered into the directory "/dist"
 npm install
 ```
 
-2. Build static resources
+2. Build resources
 ```
 npm run build
 ```
