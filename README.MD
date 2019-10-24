@@ -6,7 +6,7 @@ This is a template for static websites using
 - minify and compile Javascript with babel
 - minifying images
 - browser-sync
-- html partials with post-html
+- html partials and minify with post-html
 
 ## Setup
 
