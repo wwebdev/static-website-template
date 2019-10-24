@@ -8,7 +8,10 @@ This is a template for static websites using
 - browser-sync
 - html partials and minify with post-html
 
-The compiled files will be rendered into the directory "/dist"
+The compiled files will go to the directory "/dist"
+- from "src/scss" to "dist/css/style.css"
+- from "src/js" to "dist/js/main.min.js"
+- from "src/views" to "dist/"
 
 ## Setup
 
