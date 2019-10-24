@@ -1,12 +1,13 @@
 # Static Website Template
 
-This is a template for static websites using
+This is a template for creating simple static websites without JS frameworks.
 
+It uses:
 - SCSS with linting and autoprefixer
-- minify and compile Javascript with babel
+- babel to minify and compile Javascript
 - minifying images
-- browser-sync
 - html partials and minify with post-html
+- browser-sync
 
 The compiled files will go to the directory "/dist"
 
@@ -37,4 +38,3 @@ npm run watch
 Integrates smoothly with netlify:
 
 [https://static-website-template.netlify.com/](https://static-website-template.netlify.com/)
-
