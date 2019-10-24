@@ -32,6 +32,7 @@
     "babel-preset-minify": "^0.5.1",
     "browser-sync": "^2.26.5",
     "eslint": "^6.5.1",
+    "htmlnano": "^0.2.4",
     "imagemin-cli": "^5.0.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.12.0",

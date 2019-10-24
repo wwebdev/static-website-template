@@ -3,7 +3,9 @@
     "output": "dist",
     "plugins": {
         "posthtml-modules": {
-            "root": "./src/views"
-        }
+            "root": "./src/views",
+            "initial": true
+        },
+        "htmlnano": {}
     }
 }
