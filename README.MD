@@ -4,7 +4,7 @@ This is a template for creating simple static websites without JS frameworks.
 
 It uses:
 - SCSS with linting and autoprefixer
-- babel to minify and compile Javascript
+- webpack with babel for Javascript
 - minifying images
 - html partials and minify with post-html
 - browser-sync
