@@ -18,7 +18,7 @@
     "build:html": "posthtml -c posthtml.json",
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",
     "build": "run-s build:*",
-    "serve": "browser-sync start --server 'dist' --files 'dist'",
+    "serve": "browser-sync start --server \"dist\" --files \"dist\"",
     "watch:css": "onchange \"src/scss\" -- run-s build:css",
     "watch:js": "onchange \"src/js\" -- run-s build:js",
     "watch:html": "onchange \"src/views\" -- run-s build:html",
