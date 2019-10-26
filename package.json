@@ -14,7 +14,7 @@
     "css:scss": "node-sass --output-style compressed -o dist/css src/scss",
     "css:lint": "stylelint src/scss/*.scss --syntax scss || true",
     "build:css": "run-s css:lint css:scss css:autoprefixer",
-    "build:js": "mkdirp dist/js -p && npx babel src/js --out-file dist/js/main.min.js --presets minify --source-maps",
+    "build:js": "webpack",
     "build:html": "posthtml -c posthtml.json",
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",
     "build": "run-s build:*",
@@ -26,10 +26,11 @@
     "watch": "run-p serve watch:*"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "autoprefixer": "^9.0.1",
-    "babel-preset-minify": "^0.5.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.5",
     "eslint": "^6.5.1",
     "htmlnano": "^0.2.4",
@@ -43,7 +44,9 @@
     "posthtml-cli": "^0.5.1",
     "posthtml-modules": "^0.4.2",
     "rimraf": "^2.5.4",
-    "stylelint": "^9.4.0"
+    "stylelint": "^9.4.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
   },
   "main": ".eslintrc.js"
 }

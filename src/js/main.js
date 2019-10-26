@@ -1,1 +1,3 @@
-// javascript comes here
+import { logSomething } from './module'
+
+logSomething('Hello World');
