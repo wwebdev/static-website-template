@@ -13,7 +13,7 @@ It uses:
 
 The compiled files will go to the directory "/dist"
 
-- from `src/scss` to `dist/style.css`
+- from `src/scss` to `dist/index.css`
 - from `src/js` to `dist/bundle.js`
 - from `src/views` to `dist/`
 - from `src/images` to `dist/images`
