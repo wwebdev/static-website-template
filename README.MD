@@ -10,6 +10,7 @@ It uses:
 - minifying images
 - html partials and minify with post-html
 - browser-sync
+- easy to learn css and modify as per your comfort.
 
 The compiled files will go to the directory "/dist"
 
