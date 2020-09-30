@@ -1,6 +1,6 @@
 # Static Website Template
 
-This is a template for creating simple static websites without JS frameworks.
+This is an amazing template for creating simple static websites without JS frameworks.
 
 A blog post explaining the process can be found on [wweb.dev](https://wweb.dev/blog/how-to-create-static-website-npm-scripts)
 
@@ -49,3 +49,4 @@ Integrates smoothly with netlify:
 ---
 
 *created by [Vincent Will](https://wweb.dev/)*
+*****   Thank you   *****
