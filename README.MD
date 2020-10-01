@@ -1,6 +1,6 @@
 # Static Website Template
 
-This is a template for creating simple static websites without JS frameworks.
+An awesome template to create beautiful website. The template does not contains behaviour action handling using JavaScript frameworks.
 
 A blog post explaining the process can be found on [wweb.dev](https://wweb.dev/blog/how-to-create-static-website-npm-scripts)
 
@@ -19,7 +19,7 @@ The compiled files will go to the directory "/dist"
 - from `src/images` to `dist/images`
 
 ## Getting Started
-
+Please make sure you have nodeJs installed on your system for using the npm command
 1. Install dependencies
 ```
 npm install
@@ -47,5 +47,5 @@ Integrates smoothly with netlify:
 
 
 ---
-
+Note: You can add your own components based on your project requirement
 *created by [Vincent Will](https://wweb.dev/)*
