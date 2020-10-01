@@ -1,4 +1,4 @@
-# Static Website Template
+# CREATE Static Website Template
 
 This is a template for creating simple static websites without JS frameworks.
 
