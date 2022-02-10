@@ -34,7 +34,7 @@
     "eslint-loader": "^3.0.3",
     "htmlnano": "^0.2.5",
     "imagemin-cli": "^5.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "npm-run-all": "^4.1.5",
     "onchange": "^6.1.0",
     "postcss-cli": "^7.1.0",
