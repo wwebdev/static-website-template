@@ -1,3 +1,3 @@
-import { logSomething } from "./module";
+import { logSomething } from './module';
 
-logSomething("Hello World");
+logSomething('Hello World');
