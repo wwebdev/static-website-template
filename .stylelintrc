@@ -1,8 +1,10 @@
-"rules": {
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
     "block-no-empty": true,
-    "color-hex-case": "lower",
-    "color-hex-length": "short",
     "color-no-invalid-hex": true,
-    "declaration-colon-space-after": "always",
-    "max-empty-lines": 2
+    "color-hex-length": "short",
+    "property-no-vendor-prefix": null,
+    "length-zero-no-unit": null
+  }  
 }

@@ -1,6 +1,6 @@
 *,
-*:before,
-*:after {
+::before,
+::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -14,8 +14,8 @@ html {
 
 body {
     font-size: 1.6rem;
-    background-color: $subtleBg;
-    color: $defaultFont;
+    background-color: $subtle-bg;
+    color: $default-font;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
